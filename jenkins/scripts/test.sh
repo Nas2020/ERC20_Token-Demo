@@ -19,4 +19,4 @@ echo 'First it has to move to test folder.'
 set -x
 cd test	
 npm install --save-dev cross-env
-npm test
+node_modules/.bin/truffle test
