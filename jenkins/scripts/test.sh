@@ -18,5 +18,5 @@ echo 'application renders satisfactorily. This command actually invokes the test
 echo 'First it has to move to test folder.'	
 set -x
 cd test	
-npm install --save-dev cross-env
-truffle test
+npm install --save truffle
+npm run test
